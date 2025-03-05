@@ -43,14 +43,18 @@ plt.show()
 ## How to Run the Analysis
 1. Clone the repository:
    ```hcl
-   git clone <repository_url>
-   cd customer-coupon-analysis
+   git clone https://github.com/indeep81/kraftwerk/tree/main
+   cd kraftwerk
    ```
 2. Install required dependencies:
    ```hcl
    pip install pandas numpy matplotlib seaborn
    ```
-3. Run the script:
+3.Open the Jupyter Notebook:
+  ```hcl
+http://localhost:8888/lab/tree/kraftwerk
+
+4. Run the script:
    ```hcl
    python analysis.py
    ```
